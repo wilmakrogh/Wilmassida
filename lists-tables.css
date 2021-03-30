@@ -8,7 +8,7 @@ line-height: 170%;
 
 .unordered {
 
-    background: #424a97;
+    background: #fcc3f2;
     
     padding: 20px;
     
@@ -35,7 +35,7 @@ line-height: 170%;
     }
     .ordered {
 
-        background: #bab9f3;
+        background: #ad86a8;
         
         padding: 20px;
         
@@ -82,9 +82,9 @@ line-height: 170%;
             
             font-size: 80%;
             
-            background-color: rgb(0, 200, 200);
+            background-color: rgb(0, 0, 0);
             
-            color: white;
+            color: rgb(255, 255, 255);
             
             font-weight: bold;
             
@@ -92,3 +92,72 @@ line-height: 170%;
             
             border-radius: 3px;
         }
+        
+        
+        .list-image {
+
+            list-style: none;
+            
+            padding-left: 0;
+            
+            }
+            
+            .list-image li {
+            
+            position: relative;
+            
+            padding-left: 30px;
+            
+            line-height: 170%;
+            
+            }
+            
+            .list-image li:before {
+                content: '';
+
+width: 20px;
+
+height: 20px;
+
+position: absolute;
+
+background-image: url('https://i.pinimg.com/236x/cb/51/22/cb5122ef2d32389032094902c37cdc32.jpg');
+
+background-size: cover;
+
+background-position: center;
+
+left: 0;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+}
+
+.popular-sites {
+    list-style: none;
+    padding-left: 0%;
+}
+.popular-sites li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 170%;
+}
+.popular-sites li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("https://i.pinimg.com/236x/a4/db/21/a4db2106fca0f31897580a6c93e560f9.jpg");
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    background-image: url("https://i.pinimg.com/236x/24/9d/86/249d86543a341171b3f2ed84c50f2a7d.jpg")
+
+  }

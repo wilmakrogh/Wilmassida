@@ -1,3 +1,6 @@
+body {
+  background-color: thistle;
+}
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -63,8 +66,7 @@
     transition: margin-left .5s;
     padding: 20px;
   }
-  
- 
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -73,3 +75,4 @@
   iframe {
     margin: 25px;
   }
+
