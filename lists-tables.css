@@ -1,0 +1,35 @@
+.unordered { 
+list-style-type: disc; 
+line-height: 170%;
+} 
+
+.nested-ul { list-style-type: square; 
+}
+
+.unordered {
+
+    background: #424a97;
+    
+    padding: 20px;
+    
+    width: 30%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .unordered li {
+    
+    background: #dcb7ee;
+    
+    margin: 5px;
+    
+    }
+    
+    .nested-ul li {
+    
+    background: #EECBFF;
+    
+    margin: 5px;
+    
+    }
